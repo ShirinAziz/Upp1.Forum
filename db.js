@@ -1,7 +1,7 @@
-const mysql = require("mysql");
+const mysql = require("mysql"); //Conecting to db
 
 const con = mysql.createConnection({
-  host: "localhost",
+  host: "localhost", // IP-adress to the db-server
   user: "root",
   password: "",
   database: "forum",
